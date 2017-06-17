@@ -1,8 +1,9 @@
 const render = (root) => {
     root.empty();
-    const wrapper = $('<div class="wrapper"></div>');
+    const wrapper = $('<div class="wrapper container"></div>');
 
     root.append(wrapper);
+    wrapper.append(Header());
 };
 
 $(_ => {

@@ -1,0 +1,39 @@
+@font-face {
+    src: url('../font/Flexo/Flexo-Regular.otf');
+    font-family: 'Flexo';
+}
+
+* {
+    font-family: 'Flexo', sans-serif;
+}
+
+header h1 {
+    font-size: 3.5em;
+    color: #e84848;
+    margin-bottom: 1em;
+}
+
+header .row {
+    font-size: 1.3em;
+}
+
+header .col-md-1 {
+    background-color: #648e61;
+    color: #fff;
+    padding: 0 1em;
+}
+
+header .glyphicon {
+    font-size: 1.4em;
+    color: #666;
+    position: absolute;
+    top: -2px;
+}
+
+header input {
+    border: none;
+    border-bottom: 1px solid #666;
+    width: 62%;
+    padding-left: 1.8em;
+    outline: none;
+}
